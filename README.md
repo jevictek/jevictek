@@ -5,7 +5,7 @@
 尽快更新部署域名 ``http://demo.test.com``
 
 ### 说明
-1. 首先，本框架借鉴了 [Bootstrap](http://getbootstrap.com/) 的一些CSS样式和组件，在此感谢开源精神；其次，此UI界面是用于本公司项目后台界面，并不适应用于其任何项目中；
+1. 首先，本框架借鉴了 [Bootstrap](http://getbootstrap.com/) 的一些CSS样式和组件，在此感谢开源精神；其次，此UI界面是用于本公司项目后台界面，并不一定适应用于其任何项目中；
 2. 框架只提供了一些默认组件的 CSS 及 JavaScript；采用 ``Require.js`` 模块加载器；其核心库是 ``jQuery`` 。
 3. 本框架支持浏览器 ``IE7+、Chrome、FireFox、Safari``；在使用中难免会出现意料之外的Bug，您反馈于我们，我们将用心处理。
 4. 采用 ``Require.js`` 来编写 JS 模块，一定程度上增加了上手的难度。
