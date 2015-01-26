@@ -1,0 +1,123 @@
+/*-----------------------------------------------------------------------------------
+	0. CSS Reset & Clearfix - http://www.cssreset.com/
+-----------------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Remove Float */
+.clear { display:block; height:0; overflow:hidden; clear:both; }
+.clearfix:after, 
+.row:after, 
+.form-horizontal .col-md-row:after,
+.form-horizontal .form-group:after,
+.btn-group:after,
+.btn-toolbar:after,
+.pagination > ul:after,
+.pager ul:after,
+.panel-body:after { content:'\20'; font-size: 0; visibility: hidden; display:block; height:0; clear:both; }
+
+.clearfix, 
+.row, 
+.form-horizontal .col-md-row,
+.form-horizontal .form-group
+.btn-group,
+.btn-toolbar,
+.pagination > ul,
+.pager ul,
+.panel-body { *zoom:1; }
+
+/*-----------------------------------------------------------------------------------
+	1. Document Setup (body, common classes, vertical rhythm, structure etc)
+-----------------------------------------------------------------------------------*/
+html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { background: #EEE; font: 12px/1.42857143 'Microsoft Yahei', tahoma, arial; color: #666; min-width: 1000px; }
+a { color: #666; text-decoration: none; }
+p { margin: 0 0 10px; }
+code { padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px; }
+b, strong { font-weight: 700; }
+em { font-style: italic; }
+small, .small { font-size: 85%; }
+ul, ol { margin-bottom: 10px; }
+table { border-spacing: 0; border-collapse: collapse; background-color: transparent; }
+caption { padding-top: 8px; padding-bottom: 8px; color: #777; text-align: left; }
+td, th { padding: 0; }
+th { text-align: left; }
+button,
+input,
+select,
+textarea { margin: 0; border: 0; padding: 0; font: inherit; color: inherit; }
+button { overflow: visible; }
+button,
+select { text-transform: none; }
+input { line-height: normal; }
+textarea { overflow: auto; }
+label { display: inline-block; *zoom: 1; max-width: 100%; margin-bottom: 5px; font-weight: 700; line-height: 1.7; }
+
+/* blockquote */
+blockquote { padding: 10px 20px; margin: 0 0 20px; font-size: 17.5px; border-left: 5px solid #eee; }
+.blockquote-reverse { padding-right: 15px; padding-left: 0; text-align: right; border-right: 5px solid #eee; border-left: 0; }
+blockquote p:last-child,
+blockquote ul:last-child,
+blockquote ol:last-child { margin-bottom: 0; }
+
+/* title */
+h1, h2, h3, h4, h5, h6 { font-family: inherit; font-weight: 500; line-height: 1.1; color: inherit; }
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small { font-size: 65%; font-weight: 400; line-height: 1; color: #777; }

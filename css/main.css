@@ -1,0 +1,57 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Jevictek Front-End Framework
+	Theme URI: http://www.jevictek.com
+	Author: M.J
+	Author URI: http://webjyh.com/
+	Version: 1.0.0
+
+-----------------------------------------------------------------------------------*/
+
+/* base */
+@import url(base.css);
+
+/* common classes */
+@import url(common.css);
+
+/* ul, ol, dl */
+@import url(list.css);
+
+/* table */
+@import url(table.css);
+
+/* form */
+@import url(form.css);
+
+/* button */
+@import url(button.css);
+
+/* help-text */
+@import url(help-text.css);
+
+/* box */
+@import url(box.css);
+
+/* icon-font */
+@import url(font-awesome.css);
+
+/* dropdown */
+@import url(dropdown.css);
+
+/* pagination */
+@import url(pagination.css);
+
+/* alert */
+@import url(alert.css);
+
+/* progress */
+@import url(progress.css);
+
+/* panel */
+@import url(panel.css);
+
+/* tooltips */
+@import url(tooltips.css);
+
+/* diy layout */
+@import url(layout.css);

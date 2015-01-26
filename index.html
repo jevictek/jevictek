@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>后台框架组件库</title>
+	<link type="text/css" rel="stylesheet" href="css/main.css">
+	<!--[if IE 7]><link rel="stylesheet" href="css/font-awesome-ie7.css"><![endif]-->
+</head>
+<body>
+	<div class="col-navbar">
+		<div class="col-navbar-brand">
+			<a href="index.html" title="后台框架组件库"></a>
+		</div>
+		<div class="col-navbar-nav">
+			<a href="###">项目导航一</a>
+			<a href="###">项目导航二</a>
+			<a href="###">项目导航三</a>
+		</div>
+		<div class="col-navbar-right clearfix">
+			<div class="navbar-search">
+				<a href="javascript: void(0);" id="search"></a>
+				<div class="navbar-searchForm clearfix hidden">
+					<input type="text" name="q" value="" autocomplete="off" class="searchForm-text" />
+					<button type="submit" class="searchForm-button">搜索</button>
+				</div>
+			</div>
+			<div class="navbar-msg">
+				<a href="#"><span>3</span></a>
+			</div>
+			<div class="navbar-user">
+				<a href="javascript:void(0);" id="user-info">
+					<img src="images/avatar.jpg" width="36" height="36" alt="" />
+					<span></span>
+				</a>
+				<dl class="navbar-dropdown hidden">
+					<dt class="icon"></dt>
+					<dd><a href="#" title="操作一">操作一</a></dd>
+					<dd><a href="#" title="操作二">操作二</a></dd>
+					<dt></dt>
+					<dd><a href="#" title="个人资料">个人资料</a></dd>
+					<dd><a href="#" title="修改密码">修改密码</a></dd>
+					<dd><a href="#" title="意见反馈">意见反馈</a></dd>
+					<dt></dt>
+					<dd><a href="#" title="退出">退出</a></dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<div class="col-container">
+		<div class="col-breadcrumbs">
+			<a href="index.html">后台框架组件库</a>
+			<span>&gt;</span>
+			欢迎页
+		</div>
+		<div class="col-wrapper clearfix">
+			<div class="col-sidebar">
+				<div class="col-userinfo">
+					<div class="user-thumb">
+						<img src="images/avatar.jpg" width="80" height="80" />
+						<a href="javascript:void(0);"></a>
+					</div>
+					<p>M.J</p>
+				</div>
+				<ul class="col-menu">
+					<li><a href="index.html" class="current"><span></span>欢迎页</a></li>
+					<li><a href="###"><span></span>菜单一</a></li>
+					<li><a href="###"><span></span>菜单二</a></li>
+					<li><a href="###"><span></span>菜单三</a></li>
+					<li><a href="###"><span></span>菜单四</a></li>
+					<li><a href="###"><span></span>菜单五</a></li>
+				</ul>
+			</div>
+			<div class="col-primary">
+				<div class="col-main">
+					<div class="col-tabsNav" id="col-tabsNav">
+						<ul class="clearfix">
+							<li class="current"><a href="javascript:void(0);" title="讯飞皆成后台UI界面">讯飞皆成--后端UI界面</a></li>
+						</ul>
+					</div>
+					<div class="col-row" id="col-row">
+						<div class="container">
+							<h4 class="mb20">欢迎使用 讯飞皆成--后端UI界面</h4>
+							<div class="mb20">
+								<p class="fs14">首先，本框架借用了 <code><a href="http://getbootstrap.com" data-tips="tips" title="http://getbootstrap.com" target="_blank" class="red">Bootstrap</a></code> 的一些CSS样式和组件，在此感谢开源精神。其次，此UI界面只是用于本公司内部后台界面，版权归 <a href="http://www.jevictek.com" data-tips="tips" title="http://www.jevictek.com" target="_blank" class="red">安徽讯飞皆成软件技术有限公司</a> 所有。</p>
+								<p class="fs14">框架只提供了一些默认组件的 CSS 及 JavaScript；采用 <code>require.js</code> 模块加载器；其核心库是 <code>jQuery</code> 。</p>
+								<p class="fs14">本框架支持浏览器 IE7+、Chrome、FireFox、Safari；在使用中难免会出现意料之外的Bug。</p>
+								<p class="fs14">项目打包采用 <code>r.js</code> 来压缩 JS 和 CSS。</p>
+							</div>
+
+							<h4 class="mb20">目录说明</h4>
+							<div class="mb20 fs14">
+<pre style="padding: 16px; line-height: 1.45; background: #f7f7f7; border-radius: 3px;">
+jevictek/
+├── css/
+│   ├── main.css                            (所有组件样式)
+│   ├── font-awesome-ie7.css      (字体图标IE7样式)
+│   └── theme.css                         (界面主题，默认没有加载)   
+├── images/                                 (图片文件夹)
+├── component/                          (组件文件夹)
+├── js/
+│   ├── config.js                           (默认模块配置文件)
+│   └── common.js                       (公用JS文件)
+├── index.html                             (界面Demo)
+└── build.js                                  (r.js 项目打包配置文件)
+</pre>
+							</div>
+
+							<h4 class="mb20">项目源码</h4>
+							<h4 class="mb20">
+								<a href="https://github.com/jevictek/jevictek" target="_blank" class="btn btn-info btn-lg" data-tips="tips" title="项目所有源码"><i class="icon-github icon-large"></i> jevictek Dev</a>
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/html" id="kill-ie">
+		<div class="kill-ie-bg">&nbsp;</div>
+		<div class="kill-ie">
+			<h3>对不起，您当前的浏览器不支持浏览此网站</h3>
+			<ul class="browser clearfix">
+				<li><a target="_blank" href="http://www.google.cn/intl/zh-CN/chrome/"><img src="images/Chrome.png" width="128" height="128" /><span>Google Chrome <em>(推荐)</em></span></a></li>
+				<li><a target="_blank" href="http://www.firefox.com.cn/download/"><img src="images/FireFox.png" width="128" height="127" /><span>Mozilla Firefox </span></a></li>
+			</ul>
+			<p>推荐使用以上两种浏览器来浏览本网站</p>
+		</div>
+	</script>
+	<!-- require.js -->
+	<script type="text/javascript" src="component/lib/require.js"></script>
+	<script type="text/javascript" src="js/config.js"></script>
+    
+    <!-- Demo Test -->
+	<script type="text/javascript">require(['MTips'], function(t) { t(); });</script>
+</body>
+</html>

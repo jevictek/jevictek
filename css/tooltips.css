@@ -1,0 +1,21 @@
+/* tooltips */
+.tooltips { position: absolute; z-index: 1024; display: none; font-size: 12px; line-height: 1.4; visibility: visible; }
+.tooltips-inner { max-width: 200px; padding: 5px 8px; color: #fff; text-align: center; text-decoration: none; background-color: #000; }
+.tooltips-arrow { position: absolute; width: 0; height: 0; border-color: transparent; border-style: solid; }
+
+.tooltips.top { padding: 5px 0; margin-top: -3px; }
+.tooltips.right { padding: 0 5px; margin-left: 3px; }
+.tooltips.bottom { padding: 5px 0; margin-top: 3px; }
+.tooltips.left { padding: 0 5px; margin-left: -3px; }
+
+/* tooltips arrow Top */
+.tooltips.top .tooltips-arrow { bottom: 0; left: 50%; margin-left: -5px; border-width: 5px 5px 0; border-top-color: #000; }
+
+/* tooltips arrow Right */
+.tooltips.right .tooltips-arrow { top: 50%; left: 0; margin-top: -5px; border-width: 5px 5px 5px 0; border-right-color: #000; }
+
+/* tooltips arrow left */
+.tooltips.left .tooltips-arrow { top: 50%; right: 0; margin-top: -5px; border-width: 5px 0 5px 5px; border-left-color: #000; }
+
+/* tooltips arrow bottom */
+.tooltips.bottom .tooltips-arrow { top: 0; left: 50%; margin-left: -5px; border-width: 0 5px 5px; border-bottom-color: #000; }
