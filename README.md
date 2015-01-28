@@ -2,7 +2,7 @@
 讯飞皆成--后端UI界面
 
 ### Demo 预览
-尽快更新部署域名 ``http://demo.test.com``
+http://jevictek.sinaapp.com/ ``暂由新浪云托管``
 
 ### 功能与特点
 1. 采用 ``Require.js`` 模块管理。
@@ -36,7 +36,7 @@ jevictek/
 ```
 
 ### Document 文档
-尽快更新部署域名 ``http://demo.test.com``
+http://jevictek.sinaapp.com/ ``暂由新浪云托管``
 
 ### Update Logs 更新日志
 #### Update Ver 1.0.0
