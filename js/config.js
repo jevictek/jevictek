@@ -14,6 +14,7 @@ require.config({
 		'MDropdown': 'component/MDropdown/MDropdown',
 		'MAlert': 'component/MAlert/MAlert',
 		'MTips': 'component/MTips/MTips',
+		'MVerify': 'component/MVerify/MVerify',
 		'common': 'js/common'
 	},
 	shim: {
