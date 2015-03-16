@@ -10,6 +10,7 @@ require.config({
 	//baseUrl: '',
 	paths: {
 		'jquery': 'component/lib/jquery',
+        'ajaxForm': 'component/lib/ajaxForm',
 		'artTemplate': 'component/artTemplate/artTemplate',
 		'MDialog': 'component/MDialog/MDialog',
 		'MTabs': 'component/MTabs/MTabs',
