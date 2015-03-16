@@ -9,7 +9,7 @@
  * @version  1.0.0
  *
  */
-define(['jquery'], function($) {
+(function($) {
 
     "use strict";
 
@@ -477,4 +477,5 @@ define(['jquery'], function($) {
     };
 
     return $;
-});
+
+}(jQuery));

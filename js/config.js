@@ -6,9 +6,11 @@
  * @return  {null}
  */
 require.config({
-	baseUrl: './',
+
+	//baseUrl: '',
 	paths: {
 		'jquery': 'component/lib/jquery',
+		'artTemplate': 'component/artTemplate/artTemplate',
 		'MDialog': 'component/MDialog/MDialog',
 		'MTabs': 'component/MTabs/MTabs',
 		'MDropdown': 'component/MDropdown/MDropdown',

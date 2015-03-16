@@ -39,6 +39,10 @@ jevictek/
 http://jevictek.sinaapp.com/ ``暂由新浪云托管``
 
 ### Update Logs 更新日志
+#### Update Ver 1.0.2
+1. 修正CSS错误
+2. 新增默认组件 jQuery 版本
+
 #### Update Ver 1.0.1
 1. 增加简单的表单验证组件 MVerify.js [参考](http://jevictek.sinaapp.com/js-verify.html)
 
