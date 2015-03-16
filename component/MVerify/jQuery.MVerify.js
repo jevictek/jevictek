@@ -444,7 +444,6 @@
                 type: method,
                 dataType: this.config.dataType,
                 success: function (responseText, statusText, xhr, $form) {
-                    debugger;
                     _this.isSend = false;
                     _this.config.success(responseText, statusText, xhr, $form);
                 },
