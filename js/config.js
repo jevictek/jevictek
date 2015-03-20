@@ -10,7 +10,7 @@ require.config({
 	//baseUrl: '',
 	paths: {
 		'jquery': 'component/lib/jquery',
-		'ajaxForm': 'component/lib/ajaxForm',
+        'ajaxForm': 'component/lib/ajaxForm',
 		'artTemplate': 'component/artTemplate/artTemplate',
 		'MDialog': 'component/MDialog/MDialog',
 		'MTabs': 'component/MTabs/MTabs',
@@ -18,6 +18,7 @@ require.config({
 		'MAlert': 'component/MAlert/MAlert',
 		'MTips': 'component/MTips/MTips',
 		'MVerify': 'component/MVerify/MVerify',
+        'lofex': 'component/lofex/lofex',
 		'common': 'js/common'
 	},
 	shim: {
