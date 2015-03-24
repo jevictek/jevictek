@@ -1,0 +1,37 @@
+/**
+ * @name     gtable
+ * @desc     table 样式增强
+ * @author   M.J
+ * @date     2015-03-20
+ * @URL      http://webjyh.com
+ * @reutn    {gtable}
+ * @version  1.0.0
+ *
+ */
+.gtable .sort { font-weight: bold; }
+.gtable thead tr th {
+	background-color: #f3f3f3;
+	background-image: -moz-linear-gradient(top,#f8f8f8,#ececec);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#f8f8f8),to(#ececec));
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#ececec);
+	background-image: -o-linear-gradient(top,#f8f8f8,#ececec);
+	background-image: linear-gradient(to bottom,#f8f8f8,#ececec);
+	background-repeat: repeat-x;
+}
+.gtable thead tr th,
+.gtable thead tr td { border-bottom-width: 1px; }
+.gtable thead tr th,
+.gtable tbody tr th,
+.gtable tfoot tr th,
+.gtable thead tr td,
+.gtable tbody tr td,
+.gtable tfoot tr td,
+.gtable thead tr input,
+.gtable tbody tr input,
+.gtable tfoot tr input {
+	vertical-align: middle;
+}
+.gtable thead tr th.order,
+.gtable thead tr td.order {
+	cursor: pointer;
+}

@@ -39,6 +39,9 @@ jevictek/
 http://jevictek.sinaapp.com/ ``暂由新浪云托管``
 
 ### Update Logs 更新日志
+#### Update Ver 1.0.4
+1. 新增依赖服务端的表格排序 gtable.js [参考](http://jevictek.sinaapp.com/js-gtable.html)
+
 #### Update Ver 1.0.3
 1. 新增简单路由加载组件 lofex.js [参考](http://jevictek.sinaapp.com/js-lofex.html)
 
