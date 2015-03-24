@@ -125,7 +125,6 @@
                 if (result === false) {
                     return false;
                 }
-                debugger;
                 $form.submit();
             };
             $form.off('click').on('click', 'th.order', events);
