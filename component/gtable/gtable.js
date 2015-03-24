@@ -125,9 +125,10 @@
                 if (result === false) {
                     return false;
                 }
+                debugger;
                 $form.submit();
             };
-            $form.on('click', 'th.order', events);
+            $form.off('click').on('click', 'th.order', events);
             return this;
         },
         addEvent: function() {
@@ -135,7 +136,7 @@
                 $elem = $('input[type="checkbox"]', this.elem.find('th'));
 
             // 单击选中某行添加样式
-            this.elem.on('click', 'tbody > tr', function() {
+            this.elem.off('click').on('click', 'tbody > tr', function() {
                 var isActive = $(this).hasClass('active');
                 $(this)[isActive ? 'removeClass' : 'addClass']('active');
                 $(this).find('input[type="checkbox"]').prop('checked', isActive ? false : true);
@@ -143,7 +144,7 @@
 
             // 全选，全不选
             if ($input.length) {
-                $elem.on('click', function() {
+                $elem.off('click').on('click', function() {
                     var $elem = $(this),
                         isChecked = $elem.is(':checked');
 
@@ -167,7 +168,7 @@
     };
 
     // 获取所有选中
-    $.fn.getSelectAll = function() {
+    $.fn.getSelectAll = function () {
         var $this = $(this),
             result = [],
             $input = $('input[type="checkbox"]:checked', $this.find('tbody td'));
