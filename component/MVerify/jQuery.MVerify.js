@@ -123,7 +123,7 @@
         init: function() {
 
             var $DOM = this.DOM,
-                $elem = $('input[type="text"], textarea', $DOM),
+                $elem = $('input[type="text"], input[type="password"], textarea', $DOM),
                 _this = this;
 
             $elem.each(function() {
